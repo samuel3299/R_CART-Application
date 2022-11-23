@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<!--&lt;!&ndash;&ndash;&gt; initiating Anchor Page and connecting it to Login controller class-->
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hcart.LoginController">
+   <children>
+<!--      creating Children and adding them to pane-->
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.07504872977733612" green="0.33539634943008423" blue="0.5789473652839661" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.3264604810996563">
+                     <color>
+                        <Color red="0.2544192671775818" green="0.5600000023841858" blue="0.07280000299215317" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7628865979381443">
+                     <color>
+                        <Color red="0.2585669159889221" green="0.07280000299215317" blue="0.5600000023841858" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.8934707903780068">
+                     <color>
+                        <Color red="0.07280000299215317" green="0.5284546613693237" blue="0.5600000023841858" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="203.0" layoutY="46.0" text="Login" textFill="#050703">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="151.0" text="Email ID" textFill="#0a0404">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="263.0" text="Password" textFill="#110606">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="241.0" layoutY="152.0" />
+      <PasswordField fx:id="pass" layoutX="241.0" layoutY="264.0" />
+      <Button layoutX="241.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#Loggedinn" text="Login" />
+   </children>
+</AnchorPane>

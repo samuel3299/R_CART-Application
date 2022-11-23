@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<!--&lt;!&ndash;&ndash;&gt; //   Setting anchorPane-->
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hcart.HeaderController">
+<!--   // adding children to it-->
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+<!--                  // Seeting Background and Layout to the Anchor Pane-->
+                  <Stop offset="0.1718213058419244">
+                     <color>
+                        <Color red="1.0" green="0.2719424366950989" blue="0.11999999731779099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.39862542955326463">
+                     <color>
+                        <Color red="1.0" green="0.11999999731779099" blue="0.7847481966018677" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5807560137457045">
+                     <color>
+                        <Color red="1.0" green="0.11999999731779099" blue="0.11999999731779099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7525773195876289">
+                     <color>
+                        <Color red="0.4736842215061188" green="0.05701754242181778" blue="0.05701754242181778" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.845360824742268">
+                     <color>
+                        <Color red="0.08463381230831146" green="0.06109999865293503" blue="0.4699999988079071" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8289473652839661" green="0.8289473652839661" blue="0.08442982286214828" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="53.0" layoutX="150.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1ee22" height="53.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Label layoutX="197.0" layoutY="14.0" text="H-Cart">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="93.0" text="New User">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+<!--      // creating buttons to perform actions-->
+      <Button layoutX="131.0" layoutY="94.0" mnemonicParsing="false" onMouseClicked="#register" text="Register" />
+      <Button layoutX="421.0" layoutY="94.0" mnemonicParsing="false" onMouseClicked="#LoginPage" text="Login" />
+   </children>
+</AnchorPane>

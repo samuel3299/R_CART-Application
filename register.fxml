@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<!--&lt;!&ndash;&ndash;&gt;creating register pane and adding it to Register controller Page-->
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hcart.RegisterController">
+   <children>
+<!--      adding children to pane-->
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0">
+         <fill>
+            <RadialGradient centerX="0.4944751381215471" centerY="0.495260663507109" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.3684210479259491" green="0.7368420958518982" blue="0.8289473652839661" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.33333333333333337">
+                     <color>
+                        <Color red="0.39430534839630127" green="0.8552631735801697" blue="0.3524000942707062" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.47426630327447944">
+                     <color>
+                        <Color red="0.18579435348510742" green="0.6185530424118042" blue="0.6578947305679321" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.93557688509697">
+                     <color>
+                        <Color red="0.7409356832504272" green="0.16764132678508759" blue="0.8421052694320679" opacity="0.8700000047683716" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.28600001335144043" green="0.5347333550453186" blue="0.6499999761581421" opacity="0.6298701167106628" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="185.0" layoutY="14.0" text="Register">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="102.0" text="EmailId">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="177.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="250.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="321.0" text="DOB">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Email" layoutX="209.0" layoutY="103.0" />
+      <TextField fx:id="Name" layoutX="209.0" layoutY="178.0" />
+      <Button layoutX="209.0" layoutY="416.0" mnemonicParsing="false" onMouseClicked="#Registered" text="Register" />
+      <PasswordField fx:id="pass" layoutX="210.0" layoutY="251.0" />
+      <TextField fx:id="Dob" layoutX="209.0" layoutY="322.0" />
+      <Label layoutX="367.0" layoutY="321.0" prefHeight="27.0" prefWidth="102.0" text="Format YY/MM/DD" />
+      <Button fx:id = "login" layoutX="341.0" layoutY="416.0" mnemonicParsing="false" opacity="0.0" text="Login" onMouseClicked="#LoginPage"/>
+   </children>
+</AnchorPane>

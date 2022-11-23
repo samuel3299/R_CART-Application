@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<!--&lt;!&ndash;&ndash;&gt; initiating Anchor Pane and adding it toMyOrdersController class-->
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hcart.MyOrdersController">
+   <children>
+<!--      adding children to pane-->
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9342105388641357" green="0.6773026585578918" blue="0.6487573385238647" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.12027491408934708">
+                     <color>
+                        <Color red="0.9300000071525574" green="0.8062230348587036" blue="0.4650000035762787" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.23024054982817868">
+                     <color>
+                        <Color red="0.8356542587280273" green="0.8684210777282715" blue="0.21308480203151703" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.3264604810996563">
+                     <color>
+                        <Color red="0.6081871390342712" green="0.8421052694320679" blue="0.14035087823867798" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.40893470790378006">
+                     <color>
+                        <Color red="0.22806906700134277" green="0.8399999737739563" blue="0.1428000032901764" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.47766323024054974">
+                     <color>
+                        <Color red="0.09239999949932098" green="0.7553755640983582" blue="0.7699999809265137" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5567010309278351">
+                     <color>
+                        <Color red="0.041999999433755875" green="0.28687769174575806" blue="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6288659793814431">
+                     <color>
+                        <Color red="0.041999999433755875" green="0.04601438716053963" blue="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7245329225421653">
+                     <color>
+                        <Color red="0.3780359625816345" green="0.0989999994635582" blue="0.550000011920929" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.8174349251491093">
+                     <color>
+                        <Color red="0.550000011920929" green="0.0989999994635582" blue="0.3812805712223053" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9141683453805743">
+                     <color>
+                        <Color red="0.550000011920929" green="0.0989999994635582" blue="0.11846762895584106" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.09210526198148727" green="0.0025584795512259007" blue="0.0025584795512259007" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="161.0" layoutY="24.0" text="My Orders">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="33.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#Back" text="Back" />
+      <Button fx:id="View" layoutX="386.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#ViewOrders" text="View" />
+      <Button fx:id="logout" layoutX="381.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#Logout" text="Logout" />
+   </children>
+</AnchorPane>
