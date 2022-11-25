@@ -5,11 +5,7 @@ where we can register as new user if we are not new and can login with our detai
 
 ![Home Page](https://user-images.githubusercontent.com/40628690/203533702-45aaa433-4a42-467b-adc6-11b2215b8b34.png)
 
-![Register Page](https://user-images.githubusercontent.com/40628690/203533799-390b3ba1-7ff7-4c2b-b540-afcc322aba7f.png)
-
-![Alredy registered](https://user-images.githubusercontent.com/40628690/203533856-6283ac00-c784-47ee-987c-e141961a8332.png)
-
-![fill columns](https://user-images.githubusercontent.com/40628690/203533878-5d28d1d8-6326-4700-bb26-a49501e7b562.png)
+![Reigister Page](https://user-images.githubusercontent.com/40628690/203967640-14ee849a-effc-4ad8-ada3-936c68e10611.png)
 
 ![Login page H_CART](https://user-images.githubusercontent.com/40628690/203533888-e2398f97-bb43-435b-8632-e77f28f6fc3c.png)
 
@@ -20,3 +16,9 @@ where we can register as new user if we are not new and can login with our detai
 ![Order Page](https://user-images.githubusercontent.com/40628690/203533948-be134af9-7db6-4e3a-bad8-35cf4c5b35a9.png)
 
 ![Order List](https://user-images.githubusercontent.com/40628690/203533995-d19f3eb1-345c-4549-af2e-66bef33dd7f7.png)
+
+![Seller Pages](https://user-images.githubusercontent.com/40628690/203967692-7b9a56d0-485d-4789-8c5a-88854630f639.png)
+
+![MyProductPage](https://user-images.githubusercontent.com/40628690/203967701-f368a239-8bde-4d48-835c-e8752890d0c8.png)
+
+![MYProductPage1](https://user-images.githubusercontent.com/40628690/203967719-c71437cb-26ff-486d-8b14-066629b13d89.png)
