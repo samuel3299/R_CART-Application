@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<!--&lt;!&ndash;&ndash;&gt; creating pane and adding to ProductPageController-->
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hcart.ProductPageController">
+   <children>
+<!--      adding children to Pane-->
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.4513888955116272" green="0.6600572466850281" blue="0.8552631735801697" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.19931271477663232">
+                     <color>
+                        <Color red="0.2568226158618927" green="0.8947368264198303" blue="0.21125730872154236" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5017182130584192">
+                     <color>
+                        <Color red="0.35099902749061584" green="0.3867974281311035" blue="0.5657894611358643" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7250859106529209">
+                     <color>
+                        <Color red="0.8684210777282715" green="0.1246345043182373" blue="0.1246345043182373" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6973684430122375" green="0.03551413118839264" blue="0.5980902910232544" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="141.0" layoutY="14.0" text="Products List" textFill="#e8cbcb">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="318.0" layoutY="67.0" mnemonicParsing="false" onMouseClicked="#View" text="View" />
+      <TextField fx:id="Searchfld" layoutX="28.0" layoutY="67.0" promptText="Search" />
+      <Button fx:id="search" layoutX="199.0" layoutY="67.0" mnemonicParsing="false" onMouseClicked="#Search" text="Search" />
+      <Button layoutX="414.0" layoutY="67.0" mnemonicParsing="false" text="My Orders" onMouseClicked="#ShowOrd" />
+   </children>
+</AnchorPane>

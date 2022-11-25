@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hcart.SellerPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.05025584623217583" green="0.19424647092819214" blue="0.32894736528396606" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.08077576332108855">
+                     <color>
+                        <Color red="0.22368420660495758" green="0.11541483551263809" blue="0.09630847722291946" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.23367697594501716">
+                     <color>
+                        <Color red="0.35741958022117615" green="0.3684210479259491" blue="0.14839181303977966" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.3402061855670103">
+                     <color>
+                        <Color red="0.37959712743759155" green="0.42105263471603394" blue="0.1949317753314972" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.4261168384879725">
+                     <color>
+                        <Color red="0.14067576825618744" green="0.12183235585689545" blue="0.2631579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5154639175257733">
+                     <color>
+                        <Color red="0.18372319638729095" green="0.3815789520740509" blue="0.3551981747150421" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6013745704467351">
+                     <color>
+                        <Color red="0.1666666716337204" green="0.2163742631673813" blue="0.31578946113586426" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6632302405498283">
+                     <color>
+                        <Color red="0.1837841123342514" green="0.1176900565624237" blue="0.2763157784938812" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7353951890034361">
+                     <color>
+                        <Color red="0.3100000023841858" green="0.04960000142455101" blue="0.24630503356456757" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.811905044041553">
+                     <color>
+                        <Color red="0.25" green="0.2331211417913437" blue="0.10532407462596893" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9063870126792272">
+                     <color>
+                        <Color red="0.3100000023841858" green="0.04960000142455101" blue="0.14514245092868805" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2763157784938812" green="0.08315058797597885" blue="0.22802448272705078" opacity="0.9900000095367432" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Label layoutX="156.0" layoutY="36.0" text="Seller Page" textFill="#ee9fdcfc">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="137.0" text="Product Name" textFill="#da8aca">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="211.0" text="Product Price" textFill="#f298db">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="286.0" text="Description" textFill="#f29ae0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ProductName" layoutX="257.0" layoutY="138.0" />
+      <TextField fx:id="ProductPrice" layoutX="257.0" layoutY="212.0" />
+      <TextField fx:id="ProductDesc" layoutX="257.0" layoutY="287.0" prefHeight="90.0" prefWidth="149.0" />
+      <Button layoutX="257.0" layoutY="407.0" mnemonicParsing="false" onMouseClicked="#Add" text="Add" />
+      <Button layoutX="361.0" layoutY="89.0" mnemonicParsing="false" text="View Product Page" onMouseClicked="#ViewProductPage"/>
+   </children>
+</AnchorPane>

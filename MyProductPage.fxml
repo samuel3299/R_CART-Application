@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hcart.MyProductPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.3947368562221527" green="0.13340643048286438" blue="0.19873903691768646" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7988308251372592">
+                     <color>
+                        <Color red="0.43421053886413574" green="0.1427266150712967" blue="0.19130726158618927" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5992202758789062" green="0.6315789222717285" blue="0.1461988240480423" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="137.0" layoutY="24.0" text="Product Page" textFill="#6f69ee">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="432.0" layoutY="85.0" mnemonicParsing="false" text="View" onMouseClicked="#View"/>
+      <Button layoutX="14.0" layoutY="85.0" mnemonicParsing="false" text="Back" onMouseClicked="#Back"/>
+      <Button layoutX="432.0" layoutY="14.0" mnemonicParsing="false" text="Logout" onMouseClicked="#Logout"/>
+   </children>
+</AnchorPane>
