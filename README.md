@@ -1,9 +1,7 @@
-# H_CART-Application
-This Project is called Home_Cart where we can order the items and it can store information of user and can deleiver it. This Project is Made in Intellij Software, by using 'JAVAFX', 'MYSQL','FXML' and 'JAVA'.
+# R_CART-Application
+This Project is called Relics_Cart where we can order the items and it can store information of user and can deleiver it. This Project is Made in Intellij Software, by using 'JAVAFX', 'MYSQL','FXML' and 'JAVA'.
 where we can register as new user if we are not new and can login with our details. In ProductsPage we can Orders the Products and can view our Orders in OrderPage.
 
-
-![Home Page](https://user-images.githubusercontent.com/40628690/203533702-45aaa433-4a42-467b-adc6-11b2215b8b34.png)
 
 ![Reigister Page](https://user-images.githubusercontent.com/40628690/203967640-14ee849a-effc-4ad8-ada3-936c68e10611.png)
 
